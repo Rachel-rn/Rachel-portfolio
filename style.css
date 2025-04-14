@@ -182,7 +182,81 @@ section p {
   }
 }
 
+footer .social-icons {
+  margin-top: 20px; /* Add space above the icons */
+}
 
+footer .social-icons a {
+  margin: 0 15px; /* Space between the icons */
+  color: white; /* Set the icon color */
+  font-size: 24px; /* Set the size of the icons */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer .social-icons a:hover {
+  color:#1e90ff; /* Change color on hover (e.g., gold) */
+}
+
+footer p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #E0E0E0; /* Light gray text */
+}
+
+footer a {
+  color: white; /* White link color */
+  text-decoration: none; /* Remove underline */
+}
+section:nth-child(odd) {
+  background-color: #f9f9fb; /* soft greyish-white */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+section:nth-child(even) {
+  background-color: #e6f4f1; /* soft minty blue/green */
+  padding: 20px;
+  border-radius: 8px;
+}
+header {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 4px solid #005f99;
+  border-radius: 0; /* remove rounded corners */
+  width: 100%;
+}
+header {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  width: 80%;
+  margin:10auto;
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  padding: 30px 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+header {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 4px solid #005f99;
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+}
 
 
 
